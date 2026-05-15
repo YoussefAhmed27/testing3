@@ -10,7 +10,7 @@ on:
 
 jobs:
   cypress-run:
-    runs-on: ubuntu-24.04
+    runs-on: windows-latest
 
     steps:
       - name: Checkout code
@@ -19,4 +19,4 @@ jobs:
       - name: Run Cypress tests
         uses: cypress-io/github-action@v7
         with:
-          command: xvfb-run -a --server-args="-screen 0 1920x1080x24" npx cypress run --browser electron --headed --config viewportWidth=1920,viewportHeight=1080
+          command: npm test
