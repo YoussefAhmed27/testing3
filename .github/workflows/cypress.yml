@@ -4,19 +4,16 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   cypress-run:
-    runs-on: windows-latest
-
+    runs-on: ubuntu-latest 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Run Cypress tests
-        uses: cypress-io/github-action@v7
+        uses: cypress-io/github-action@v6
         with:
-          command: npm test
+          browser: chrome
+          command: npx cypress run --browser chrome
