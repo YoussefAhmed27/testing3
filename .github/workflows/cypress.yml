@@ -19,4 +19,4 @@ jobs:
       - name: Run Cypress tests
         uses: cypress-io/github-action@v7
         with:
-          command: npx cypress run --browser electron --headed
+          command: xvfb-run -a --server-args="-screen 0 1920x1080x24" npx cypress run --browser electron --headed --config viewportWidth=1920,viewportHeight=1080
