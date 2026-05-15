@@ -1,4 +1,3 @@
-
 class InvoicesPage {
   visitHome() {
     cy.loginViaApi();

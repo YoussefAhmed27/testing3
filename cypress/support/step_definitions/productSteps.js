@@ -1,5 +1,5 @@
 import { Given, When, Then, Before, After } from '@badeball/cypress-cucumber-preprocessor';
-import productsPage from '../../pages/ProductsPage';
+import productsPage from '../../Pages/ProductsPage';
 
 Before(() => {
   cy.fixture('products').then((fixtureData) => {
