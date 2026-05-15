@@ -10,4 +10,5 @@ After(() => {
   cy.clearAllLocalStorage();
   cy.clearAllSessionStorage();
   cy.clearAllCookies();
+  cy.wait(5000);
 });
