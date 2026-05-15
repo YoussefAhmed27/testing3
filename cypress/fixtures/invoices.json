@@ -1,0 +1,41 @@
+{
+  "basic": {
+    "data": [
+      {
+        "id": "INV-9999",
+        "invoice_date": "2026-04-01",
+        "total": 150.75,
+        "status": "COMPLETED"
+      }
+    ]
+  },
+  "detailed": {
+    "data": [
+      {
+        "id": "mock-uuid-12345",
+        "invoice_number": "INV-9999",
+        "billing_address": "123 Test Way",
+        "invoice_date": "2026-04-01 10:00:00",
+        "total": 150.75
+      }
+    ],
+    "total": 1
+  },
+  "sorted": {
+    "data": [
+      {
+        "id": "INV-0002",
+        "invoice_number": "INV-0002",
+        "invoice_date": "2026-04-02",
+        "total": 20.00
+      },
+      {
+        "id": "INV-0001",
+        "invoice_number": "INV-0001",
+        "invoice_date": "2026-04-01",
+        "total": 10.00
+      }
+    ],
+    "total": 2
+  }
+}

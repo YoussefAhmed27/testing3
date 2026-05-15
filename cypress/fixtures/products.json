@@ -1,0 +1,49 @@
+{
+  "default": {
+    "data": [
+      { "id": "1", "name": "Basic Pliers", "price": 15.00, "image": { "url": "assets/img/products/pliers01.avif" } },
+      { "id": "2", "name": "Claw Hammer", "price": 20.00, "image": { "url": "assets/img/products/hammer01.avif" } },
+      { "id": "3", "name": "ForgeFlex Drill", "price": 80.00, "image": { "url": "assets/img/products/drill01.avif" } },
+      { "id": "4", "name": "Wood Chisel", "price": 10.00, "image": { "url": "assets/img/products/chisel01.avif" } },
+      { "id": "5", "name": "Measuring Tape", "price": 8.00, "image": { "url": "assets/img/products/tape01.avif" } },
+      { "id": "6", "name": "Safety Goggles", "price": 12.00, "image": { "url": "assets/img/products/goggles01.avif" } }
+    ],
+    "total": 6
+  },
+  "search": {
+    "data": [
+      { "id": "1", "name": "Basic Pliers", "price": 15.00 }
+    ],
+    "total": 1
+  },
+  "brandFilter": {
+    "data": [
+      { "id": "3", "name": "ForgeFlex Drill", "price": 80.00 },
+      { "id": "7", "name": "ForgeFlex Saw", "price": 45.00 }
+    ],
+    "total": 2
+  },
+  "priceAsc": {
+    "data": [
+      { "id": "8", "name": "Zip Ties", "price": 5.00 },
+      { "id": "9", "name": "Power Generator", "price": 99.00 }
+    ],
+    "total": 2
+  },
+  "nameDesc": {
+    "data": [
+      { "id": "10", "name": "Wrench Set", "price": 30.00 },
+      { "id": "11", "name": "Anvil", "price": 150.00 }
+    ],
+    "total": 2
+  },
+  "empty": {
+    "data": [],
+    "total": 0
+  },
+  "searchTerm": "Pliers",
+  "searchTermEmpty": "jfdlkfjslk",
+  "searchTermReset": "Hammer",
+  "expectedSearchCount": 4
+}
+
